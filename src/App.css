@@ -1,7 +1,102 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  padding: 20px 60px;
+  background: #1a1a1a;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #a0b8b9;
+  
+}
+
+.nav-links {
+  display: flex;          
+  list-style: none;
+  gap: 30px;
+
+               
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links li:hover {
+  color: #7c9092;
+}
+
+
+
+.Hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #1a1a1a, #2c2c54);
+  color: white;
+}
+
+.Hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.Hero p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #00adb5;
+}
+
+.Skills {
+  display:flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap:wrap;
+
+}
+.Skills span {
+  background: #dcdcf5;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+.Skills li {
+  list-style: none;
+}
+.Projects-card {
+  margin:20px;
+  padding: 1.5rem;
+  margin:1rem auto;
+  display: flex;
+  justify-content: center;
+   border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+ 
+}
+
+.Contacts {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem 2rem;
+  background: #e6e6fa;
+}
