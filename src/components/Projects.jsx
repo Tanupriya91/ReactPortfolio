@@ -1,6 +1,6 @@
 function Projects(){
     return(
-        <section>
+        <section className="section3">
             <h2>Projects</h2>
             <div className="project-section">
             <h3>Dosemate</h3>

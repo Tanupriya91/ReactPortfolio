@@ -1,31 +1,30 @@
 #root {
-  
   margin: 0;
   padding: 0;
   text-align: center;
 }
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
 
 .navbar {
   display: flex;
-  justify-content:left;
   align-items: center;
   padding: 20px 60px;
   background: #1a1a1a;
-
+  justify-content: space-between;
 }
 
 .logo {
   font-size: 1.5rem;
   color: #a0b8b9;
-  
 }
 
 .nav-links {
-  display: flex;          
+  display: flex;
   list-style: none;
   gap: 30px;
-
-               
 }
 
 .nav-links li {
@@ -37,8 +36,6 @@
 .nav-links li:hover {
   color: #7c9092;
 }
-
-
 
 .Hero {
   text-align: center;
@@ -60,43 +57,91 @@
 .section {
   padding: 80px 20px;
   text-align: center;
+  background: linear-gradient(135deg, #1a1a1a, #2c2c54);
 }
 
 .section h2 {
   margin-bottom: 30px;
   font-size: 2rem;
-  color: #00adb5;
+  color: rgb(166, 190, 199);
+}
+
+.section p {
+  color: white;
+  font-size: 1rem;
+}
+
+.section2 {
+  padding: 120px 100px;
+  text-align: center;
+  background: linear-gradient(135deg, #2a2d3c, #07070f);
+  color: white;
+}
+.section2 h2 {
+  color: rgb(166, 190, 199);
+  font-size: 2rem;
+  align-items: start;
+}
+.section2 ul {
+  text-align: left;
+  color: white;
 }
 
 .Skills {
-  display:flex;
+  display: flex;
   justify-content: center;
   gap: 1.5rem;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+}
 
-}
-.Skills span {
-  background: #dcdcf5;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-}
 .Skills li {
   list-style: none;
 }
-.Projects-card {
-  margin:20px;
-  padding: 1.5rem;
-  margin:1rem auto;
-  display: flex;
-  justify-content: center;
-   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
- 
+
+.section3 {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2a2d3c, #07070f);
+  text-align: center;
+}
+.section3 h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+.project-section h3 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: rgb(166, 190, 199);
+}
+
+.project-section p {
+  font-size: 1rem;
+  color: white;
+  line-height: 1.6;
 }
 
 .Contacts {
   display: flex;
   justify-content: center;
-  padding-top: 3rem 2rem;
   background: #e6e6fa;
+  padding: 60px 20px;
+}
+.section4 {
+  color: white;
+  background: linear-gradient(135deg, #1a1a1a, #2c2c54);
+}
+.section4 p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #cbd5e1;
+}
+
+.section4 a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }

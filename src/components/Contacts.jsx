@@ -1,8 +1,12 @@
 function Contacts(){
     return(
-        <section> 
-            <h2> Contact</h2>
-            <p>Email-id:tanupriya2024@gmail.com , github:https://github.com/Tanupriya91/ReactPortfolio, linkdin:https://www.linkedin.com/in/tanu-priya-65155b304/</p>
+        <section className="section4"> 
+            <span> Contact</span>
+            <p>
+                Email: <a href="mailto:tanupriya2024@gmail.com">tanupriya2024@gmail.com</a><br/>
+                GitHub: <a href="https://github.com/Tanupriya91/ReactPortfolio" target="_blank" rel="noopener noreferrer">ReactPortfolio</a><br/>
+                LinkedIn: <a href="https://www.linkedin.com/in/tanu-priya-65155b304/" target="_blank" rel="noopener noreferrer">Tanu Priya</a>
+            </p>
         </section>
     );
 }
